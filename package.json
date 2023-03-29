@@ -5,7 +5,8 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
       "start:dev": "cd server && nodemon server.js",
-      "start": "cd server && node server.js"
+      "start": "cd server && node server.js",
+      "install": "cd client && npm i && cd ../server && npm i"
     },
     "keywords": [],
     "author": "",
